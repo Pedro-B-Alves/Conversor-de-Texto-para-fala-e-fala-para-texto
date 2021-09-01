@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(53, 58, 58);
+}
+
+.Cabecalho {
+  width: 100vw;
+  height: 6vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.CabecalhoTxt {
+  font-size: 2em;
+  padding-left: 2em;
+  color: white;
+}
+
+.Organizacao {
+  width: 100vw;
+  height: 94vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.OrganizacaoBt {
+  height: 20vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.Input {
+  width: 20vw;
+  height: 20vh;
+}
+
+.BtMicro {
+  width: 1.5vw;
+  height: 2.9vh;
+  background-image: url(img/microfone.png);
+}
+
+.BtAud {
+  width: 1.5vw;
+  height: 2.9vh;
+  background-image: url(img/audio.png);
+}
