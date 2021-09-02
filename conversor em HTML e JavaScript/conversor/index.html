@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech to text</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5">Conversor de Fala para Texto e Texto para Fala</h1>
+      <div class="box">
+        <select id="voicelist"></select><br><br>
+      </div>
+      <div class="form-group">
+        <textarea id="textbox" rows="6" class="form-control"></textarea>
+        <div class="form-group">
+          <button id="falar-btn" class="btn btn-danger btn-block">Falar</button>
+          <p id="instructions">Aperte o Botão Falar</p>
+          <button class="btn btn-danger btn-block" id="ouvir-bnt">Ouvir</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="vozTexto.js"></script>
+  <script src="textoVoz.js"></script>
+  
+</html>
+
